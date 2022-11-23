@@ -1,0 +1,145 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* You guessed it, ipad (tablets, smaller screens, etc) */
+    /* Step 1a: Repeating for the iPad */
+    .hero {
+        width: 147%;
+    }
+    .about {
+        width: 147%;
+    }
+    .service {
+        width: 147%;
+    }
+    .contact-me {
+        width: 147%;
+    }
+    footer {
+        width: 147%;
+    }
+    .contact-me .button-op {
+        margin-left: 33px;
+    }
+    .contact-me .button-wd {
+        margin-left: 15px;
+    }
+    .contact-me .button-cs {
+        margin-left: 63px;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+    /* Put your iPhone 4g styles in here */
+    .hero {
+        width: 235%;
+    }
+    .about {
+        width: 235%;
+    }
+    .service {
+        width: 235%;
+    }
+    .contact-me {
+        width: 235%;
+    }
+    footer {
+        width: 235%;
+    }
+    .contact-me .button-op {
+        margin-left: 33px;
+    }
+    .contact-me .button-wd {
+        margin-left: 15px;
+    }
+    .contact-me .button-cs {
+        margin-left: 63px;
+    }
+}
+
+
+/* Following Android targeting from:
+http://developer.android.com/guide/webapps/targeting.html
+http://pugetworks.com/2011/04/css-media-queries-for-targeting-different-mobile-devices/  */
+
+@media only screen and (min-device-width: 440px) and (max-device-width: 479px) {
+    /* Put CSS for low density (ldpi) Android layouts in here */
+    .hero {
+        width: 377%;
+    }
+    .about {
+        width: 377%;
+    }
+    .service {
+        width: 377%;
+    }
+    .contact-me {
+        width: 377%;
+    }
+    footer {
+        width: 377%;
+    }
+    .contact-me .button-op {
+        margin-left: 33px;
+    }
+    .contact-me .button-wd {
+        margin-left: 15px;
+    }
+    .contact-me .button-cs {
+        margin-left: 63px;
+    }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 439px) {
+    /* Put CSS for medium density (mdpi) Android layouts in here */
+    .hero {
+        width: 377%;
+    }
+    .about {
+        width: 377%;
+    }
+    .service {
+        width: 377%;
+    }
+    .contact-me {
+        width: 377%;
+    }
+    footer {
+        width: 377%;
+    }
+    .contact-me .button-op {
+        margin-left: 33px;
+    }
+    .contact-me .button-wd {
+        margin-left: 15px;
+    }
+    .contact-me .button-cs {
+        margin-left: 63px;
+    }
+}
+
+@media only screen and (min-device-width: 150px) and (max-device-width: 299px) {
+    /* Put CSS for high density (hdpi) Android layouts in here */
+    .hero {
+        width: 400%;
+    }
+    .about {
+        width: 400%;
+    }
+    .service {
+        width: 400%;
+    }
+    .contact-me {
+        width: 400%;
+    }
+    footer {
+        width: 400%;
+    }
+    .contact-me .button-op {
+        margin-left: 33px;
+    }
+    .contact-me .button-wd {
+        margin-left: 15px;
+    }
+    .contact-me .button-cs {
+        margin-left: 63px;
+    }
+}
